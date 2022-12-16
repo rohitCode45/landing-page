@@ -1,0 +1,65 @@
+.landing-page-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: url('./Constants/Images/landing-bg.png') no-repeat center center
+    fixed;;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  object-fit: cover;
+height: 100%;
+color: #ffffff;
+.navBar{
+  margin-top: 2em;
+}
+.landing-page-content{
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 1em;
+  width: 60%;
+  height: 100%;
+  margin-top: 4em;
+
+  .top-part{
+    font-family: "Zilap Orion Personal Use";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ 
+
+  
+    .top-part-content{
+      font-size: 4em;
+    background: -webkit-linear-gradient(90deg, #E65C00 0%, #F9D423 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+      margin: 0;
+      letter-spacing: 0.1em;
+      text-align: center;
+    }
+  }
+  .middle-part{
+    font-family: Montserrat Alternates;
+    font-size: 2em;
+    line-height: 1.5em;
+    text-align: center;
+    font-weight: 600;
+  }
+  .lower-part{
+    background: linear-gradient(90deg, #F9D423 0%, #E65C00 100%);
+    border: 2px solid #FFFFFF;
+    /* width: 9em; */
+    text-align: center;
+    /* height: 18px; */
+    padding: 3px 10px;
+    font-size: 1.2em;
+    border-radius: 24px;
+    letter-spacing: 0.1em;
+  }
+}
+}

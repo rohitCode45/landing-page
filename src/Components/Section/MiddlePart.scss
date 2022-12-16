@@ -1,0 +1,142 @@
+.mainMiddleContainer {
+  height: 100vh;
+  display: flex;
+  background: linear-gradient(90deg, #000000 0%, #3e3e3e 100%);
+  color: #ffffff;
+  border: 1px solid #ffffff2b;
+  padding: 2em;
+  .leftPart {
+    flex: 1;
+
+    border-radius: 2em;
+    height: 60%;
+    top: 40%;
+    position: relative;
+    .leftPartContent {
+      .text-container {
+        display: flex;
+        flex-direction: column;
+        row-gap: 2em;
+        padding: 1em;
+        align-items: center;
+        .heading {
+          display: flex;
+          color: #ffffff;
+          text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+          font-family: "Montserrat Alternates";
+          font-style: normal;
+          align-items: center;
+          font-weight: 700;
+          align-self: start;
+
+          span {
+            font-size: 1.4em;      
+          }
+          .accom{
+            background: linear-gradient(90deg, #ffe259 0%, #ffa751 100%);
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-fill-color: transparent;
+           
+          }
+          .fmgc{
+            background: linear-gradient(90deg, #F2EFD3 0%, #358D82 100%);
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-fill-color: transparent;
+          }
+          .ecomm{
+            background: linear-gradient(90deg, #B4DFFD 100%, #EFB79B 100%);
+          
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-fill-color: transparent;
+          }
+        }
+        .details {
+          font-size: 1.3em;
+        }
+        .btn {
+          text-align: center;
+          border: 2px solid #ffffff;
+          width: 6em;
+          padding: 4px;
+          border-radius: 1em;
+        }
+      }
+    }
+  }
+  .rightPart {
+    flex: 1;
+    // border: 1px solid #ffffff2b;
+    border-radius: 2em;
+    height: 60%;
+    position: relative;
+    .rightPartContent {
+        .text-container {
+            display: flex;
+            flex-direction: column;
+            row-gap: 2em;
+            padding: 1em;
+            align-items: center;
+            .heading {
+              display: flex;
+              color: #ffffff;
+              text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+              font-family: "Montserrat Alternates";
+              font-style: normal;
+              align-items: center;
+              font-weight: 700;
+              flex-direction: row-reverse;
+              column-gap: 2em;
+              align-self: flex-end;
+    
+              span {
+                font-size: 1.4em;      
+              }
+              .tech{
+                background: linear-gradient(90deg, #BF5AE0 100%, #A811DA 100%);
+                text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+                text-fill-color: transparent;
+               
+              }
+              .pack{
+                background: linear-gradient(90deg, #EACDA3 110%, #D6AE7B 100%);
+                text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+                text-fill-color: transparent;
+              }
+              .agri{
+                background: linear-gradient(90deg, #72C6EF 100%, #00A651 100%);
+                text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+                text-fill-color: transparent;
+              }
+            }
+            .details {
+              font-size: 1.3em;
+            }
+            .btn {
+              text-align: center;
+              border: 2px solid #ffffff;
+              width: 6em;
+              padding: 4px;
+              border-radius: 1em;
+            }
+          }
+    }
+  }
+}

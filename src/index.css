@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'sans-serif';
+  /* font-style: normal; */
+  /* font-family: 'MyFont'; */
+  /* src: local('MyFont'), url("./Fonts/ZilapOrionPersonalUseFuturistic-DzA3.ttf") format('ttf'); */
+
+  /* -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+@font-face {
+  font-family: "Zilap Orion Personal Use";
+  src: local("Zilap Orion Personal Use"), url("./Fonts/ZilapOrionPersonalUseFuturistic-DzA3.ttf");
+}

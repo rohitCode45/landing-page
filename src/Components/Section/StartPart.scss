@@ -1,0 +1,57 @@
+.main-section-container{
+    height: 100vh;
+    background: linear-gradient(90deg, #000000 0%, #3E3E3E 100%);
+    color: #ffffff;
+    position: relative;
+    .start{
+        position: absolute;
+        /* width: 613.05px; */
+        height: 20em;
+        width: 20em;
+        left: -13vw;
+        top: 11em;
+        background: linear-gradient(181.16deg, #FF7917 -26.31%, #FFDD2D 128.88%);
+        transform: matrix(120deg);
+        transform: rotate(28deg);
+    }
+    .end{
+        position: absolute;
+        height: 20em;
+        width: 20em;
+        left: 90vw;
+        top: 11em;
+        background: linear-gradient(181.16deg, #FF7917 -26.31%, #FFDD2D 128.88%);
+        transform: matrix(120deg);
+        transform: rotate(28deg);
+    }
+ 
+    .section-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        letter-spacing: 0.1em;
+        .top-part{
+         
+            .top-part-content{
+                background: linear-gradient(90deg, #FFE259 0%, #FFA751 100%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+                text-fill-color: transparent;
+                font-family: "Zilap Orion Personal Use";
+                margin: 0;
+            }
+        }
+        .lower-part{
+            width: 60%;
+            font-family: Montserrat Alternates;
+            font-size: 1.5em;
+            line-height: 1.5em;
+            text-align: center;
+        }
+    }
+    
+}
