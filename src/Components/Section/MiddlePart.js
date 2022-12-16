@@ -3,13 +3,14 @@ import "./MiddlePart.scss";
 import second from "./../Constants/Logos/tech-big.png";
 
 function MiddlePart({ left, right }) {
-
   return (
     <div className="mainMiddleContainer">
       <div className="leftPart">
         <div className="leftPartContent">
           {left.type === "ICON" && (
-            <img style={{ width: "27em" }} src={left.content} />
+            <div className="imgBoxLeft">
+              <img style={{ width: "27em" }} src={left.content} />
+            </div>
           )}
           {left.type === "TEXT" && (
             <div className="text-container">
@@ -28,10 +29,12 @@ function MiddlePart({ left, right }) {
       </div>
       <div className="rightPart">
         <div className="rightPartContent">
-        {right.type === "ICON" && (
-            <img style={{ width: "27em" }} src={right.content} />
+          {right.type === "ICON" && (
+            <div className="imgBoxRight">
+              <img style={{ width: "27em" }} src={right.content} />
+            </div>
           )}
-             {right.type === "TEXT" && (
+          {right.type === "TEXT" && (
             <div className="text-container">
               <div className="heading">
                 <img style={{ width: "5em" }} src={right.smIcon} />

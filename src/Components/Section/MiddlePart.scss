@@ -14,6 +14,7 @@ padding: 2em;
     top: 40%;
     position: relative;
     .leftPartContent {
+      
       .text-container {
         display: flex;
         flex-direction: column;
@@ -80,6 +81,10 @@ padding: 2em;
     height: 60%;
     position: relative;
     .rightPartContent {
+        .imgBoxRight{
+            display: flex;
+            flex-direction: row-reverse;
+        }
         .text-container {
             display: flex;
             flex-direction: column;
